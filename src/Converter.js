@@ -9,3 +9,9 @@ function convertCelsiustoFahrenheit(temperature) {
   const fahrenheit = temperature * 1.8 + 32
   return fahrenheit.toFixed(1)
 }
+
+function convertPoundstoKilos(weight) {
+  const kilo = s * 0.4536
+
+  return kilo.toFixed(2)
+}

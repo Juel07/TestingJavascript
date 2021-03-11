@@ -16,4 +16,11 @@ describe("Cooking Ingredients Converter", function() {
       expect(result2).toEqual('78.1');
     });
   });
+
+  describe("Weight", function() {
+    it("coverts Pounds to kilos to 2 decimal points", function(){
+      var kilo = convertPoundstoKilos(10);
+      expect(kilo).toEqual('4.54')
+    } )
+  })
 });
