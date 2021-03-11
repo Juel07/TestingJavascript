@@ -11,7 +11,11 @@ function convertCelsiustoFahrenheit(temperature) {
 }
 
 function convertPoundstoKilos(weight) {
-  const kilo = s * 0.4536
-
+  const kilo = weight * 0.4536
   return kilo.toFixed(2)
+}
+
+function convertLitrestoGallons(volume) {
+  const gallon = volume * 0.22
+  return gallon.toFixed(2)
 }

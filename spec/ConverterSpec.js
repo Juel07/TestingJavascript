@@ -18,9 +18,16 @@ describe("Cooking Ingredients Converter", function() {
   });
 
   describe("Weight", function() {
-    it("coverts Pounds to kilos to 2 decimal points", function(){
+    it("converts Pounds to kilos to 2 decimal points", function(){
       var kilo = convertPoundstoKilos(10);
       expect(kilo).toEqual('4.54')
     } )
+  });
+
+  describe("Volume", function() {
+    it("converts Litre to Gallons to 2 decimal points", function() {
+      var gallon = convertLitrestoGallons(5.1);
+      expect(gallon).toEqual('1.12')
+    })
   })
 });
