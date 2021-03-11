@@ -19,3 +19,8 @@ function convertLitrestoGallons(volume) {
   const gallon = volume * 0.22
   return gallon.toFixed(2)
 }
+
+function convertMilestoKm(distance) {
+  const km = distance * 1.609
+  return km.toFixed(2)
+}

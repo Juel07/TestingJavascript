@@ -29,5 +29,12 @@ describe("Cooking Ingredients Converter", function() {
       const gallon = convertLitrestoGallons(5.1);
       expect(gallon).toEqual('1.12')
     })
+  });
+
+  describe("Distance", function() {
+    it("converts Miles to Km to 2 decimal points", function(){
+      const km = convertMilestoKm(5)
+      expect(km).toEqual('8.04')
+    })
   })
 });
