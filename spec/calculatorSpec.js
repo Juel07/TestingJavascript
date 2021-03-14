@@ -5,3 +5,10 @@ describe('Calculator', function() {
       });
     });
   });
+describe('Calculator', function() {
+    describe('subtracting numbers', function() {
+      it('returns the difference of the numbers', function() {
+        expect(add(3,5)).toEqual(2);
+      });
+    });
+  });
