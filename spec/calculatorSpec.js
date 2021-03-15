@@ -7,8 +7,15 @@ describe('Calculator', function () {
 });
 describe('Calculator', function () {
   describe('subtracting numbers', function () {
-    it('returns the difference of the numbers', function () {
+    it('returns the difference between the numbers', function () {
       expect(subtract(5, 3)).toEqual(2);
+    });
+  });
+});
+describe('Calculator', function () {
+  describe('multiplying numbers', function () {
+    it('returns the multiplication of the numbers', function () {
+      expect(multiply(50, 30)).toEqual(1500);
     });
   });
 });
